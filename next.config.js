@@ -4,8 +4,8 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/',
-        destination: '/presale',
+        source: "/",
+        destination: "/airdrop/og",
         permanent: true,
       },
     ];

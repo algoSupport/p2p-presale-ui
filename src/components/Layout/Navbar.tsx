@@ -11,7 +11,7 @@ const DynamicCILBalance = dynamic(() => import("./CILBalance"), {
 });
 
 const navigation = [
-  { name: "Presale", href: "/presale" },
+  { name: "Presale", href: "/airdrop/og" },
   {
     name: "Airdrop",
     children: [
@@ -91,7 +91,7 @@ const Navbar = () => {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link href="/presale" className="-m-1.5 p-1.5">
+          <Link href="/airdrop/og" className="-m-1.5 p-1.5">
             <span className="sr-only">Cilistia</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +165,7 @@ const Navbar = () => {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full px-6 py-6 overflow-y-auto bg-gray-900 sm:max-w-sm sm:ring-1 sm:ring-white/10">
           <div className="flex items-center justify-between">
-            <Link href="/presale" className="-m-1.5 p-1.5">
+            <Link href="/airdrop/og" className="-m-1.5 p-1.5">
               <span className="sr-only">Cilistia</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -1,19 +1,19 @@
-import { ACCEPTED_TOKENS_RECORDS, CIL_TOKEN_RECORDS } from './tokens';
-import { PROVIDER_RECORDS, EXPLORER_RECORDS, NETWORK } from './common/config';
+import { ACCEPTED_TOKENS_RECORDS, CIL_TOKEN_RECORDS } from "./tokens";
+import { PROVIDER_RECORDS, EXPLORER_RECORDS, NETWORK } from "./common/config";
 import {
   PRESALE_ADDRESS_RECORDS,
   PRESALE_WHITELIST_RECORDS,
   HARD_CAP,
-} from './presale';
+} from "./presale";
 import {
   OG_AIRDROP_CONTRACT_ADDRESS_RECORDS,
   OG_AIRDROP_WHITELIST_RECORDS,
-} from './airdrop/og';
+} from "./airdrop/og";
 import {
   TRUE_OG_AIRDROP_CONTRACT_ADDRESS_RECORDS,
   TRUE_OG_AIRDROP_WHITELIST_RECORDS,
-} from './airdrop/trueOgs';
-import { SUBGRAPH_ENDPOINTS } from './subgraph';
+} from "./airdrop/trueOgs";
+import { SUBGRAPH_ENDPOINTS } from "./subgraph";
 
 export const ACCEPTED_TOKENS = ACCEPTED_TOKENS_RECORDS[NETWORK];
 export const CIL_TOKEN = CIL_TOKEN_RECORDS[NETWORK];
